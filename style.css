@@ -1,0 +1,31 @@
+h1{
+	text-align: center;
+}
+
+.grid{
+	margin-left: 80px;
+}
+
+.grid-sizer{
+	width: 180px;
+}
+
+.grid-item {
+	width: 160px;
+  float: left;
+  background: silver;
+  border-radius: 10px;
+}
+
+.grid-item h1{
+	font-size: 18px;
+}
+
+.grid-item img{
+	display: block;
+	width:80%;
+	margin: auto;
+}
+
+.grid-item-width2 { width:  320px; }
+.grid-item-width3 { width:  480px; }
