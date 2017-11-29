@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <title>Masonry Sample</title>
-	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="masonry.pkgd.min.js"></script>
+	<script src="sample.js"></script>
   <link href="style.css" rel="stylesheet" />
 </head>
 
@@ -11,7 +13,7 @@
 
 	<h1>Masonry Sample</h1>
 
-	<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 240 }'>
+	<div class="grid">
 
 		<div class="grid-item">
 			<h1>La Gioconda</h1>
@@ -49,7 +51,7 @@
 			</ul>
 		</div>
 
-		<div class="grid-item">
+		<div class="grid-item grid-item-width2">
 			<h1>Annunciazione</h1>
 			<img class="thumb" src="images/Annunciazione.jpg">
 			<ul class="notes">
@@ -95,7 +97,7 @@
 			</ul>
 		</div>
 
-		<div class="grid-item">
+		<div class="grid-item grid-item-width2">
 			<h1>Les Nymphéas</h1>
 			<img class="thumb" src="images/LesNymphéas.jpg">
 			<ul class="notes">
@@ -106,7 +108,6 @@
 				<li>オランジュリー美術館</li>
 			</ul>
 		</div>
-
 
 	</div>
 

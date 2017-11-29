@@ -2,8 +2,8 @@
 
 $(function(){
 	$('.grid').masonry({
+    columnWidth: 240,
 	  itemSelector: '.grid-item',
-	  columnWidth: 200
+			isFitWidth: true
 	});
-
 });
